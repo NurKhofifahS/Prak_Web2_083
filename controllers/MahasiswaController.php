@@ -4,9 +4,8 @@ namespace app\controllers;
 
 class MahasiswaController extends \yii\web\Controller
 {
-    public function actionProfil()
+    public function actionUbahBiodata()
     {
-        return $this->render('profil');
+        return $this->render('ubah-biodata');
     }
-
 }
